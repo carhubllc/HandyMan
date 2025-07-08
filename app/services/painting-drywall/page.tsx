@@ -22,18 +22,18 @@ export default function PaintingDrywallPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "https://images.pexels.com/photos/1669800/pexels-photo-1669800.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1669801/pexels-photo-1669801.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216601/pexels-photo-1216601.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216602/pexels-photo-1216602.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Living room transformation - from dated colors to modern neutral palette",
         },
         {
-          before: "https://images.pexels.com/photos/1669802/pexels-photo-1669802.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1669803/pexels-photo-1669803.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216603/pexels-photo-1216603.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216604/pexels-photo-1216604.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Drywall hole repair - seamless patch and paint match",
         },
         {
-          before: "https://images.pexels.com/photos/1669804/pexels-photo-1669804.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1669805/pexels-photo-1669805.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216605/pexels-photo-1216605.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216606/pexels-photo-1216606.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Kitchen cabinet refresh - painted cabinets for updated look",
         },
       ]}

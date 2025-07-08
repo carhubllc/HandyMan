@@ -22,18 +22,18 @@ export default function EmergencyRepairsPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "https://images.pexels.com/photos/5691642/pexels-photo-5691642.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691641/pexels-photo-5691641.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216619/pexels-photo-1216619.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216620/pexels-photo-1216620.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Emergency pipe burst repair - stopped flooding and restored water service",
         },
         {
-          before: "https://images.pexels.com/photos/5691640/pexels-photo-5691640.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691639/pexels-photo-5691639.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216621/pexels-photo-1216621.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216622/pexels-photo-1216622.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Storm damage repair - secured roof and prevented further damage",
         },
         {
-          before: "https://images.pexels.com/photos/5691638/pexels-photo-5691638.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691637/pexels-photo-5691637.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216623/pexels-photo-1216623.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216624/pexels-photo-1216624.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Emergency electrical repair - restored power safely and quickly",
         },
       ]}

@@ -22,18 +22,18 @@ export default function ElectricalWorkPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "https://images.pexels.com/photos/257737/pexels-photo-257737.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/257738/pexels-photo-257738.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216595/pexels-photo-1216595.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216596/pexels-photo-1216596.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Dining room chandelier installation - from basic fixture to elegant lighting",
         },
         {
-          before: "https://images.pexels.com/photos/257739/pexels-photo-257739.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/257740/pexels-photo-257740.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216597/pexels-photo-1216597.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216598/pexels-photo-1216598.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Kitchen outlet upgrade - added GFCI outlets for safety compliance",
         },
         {
-          before: "https://images.pexels.com/photos/257741/pexels-photo-257741.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/257742/pexels-photo-257742.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216599/pexels-photo-1216599.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216600/pexels-photo-1216600.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Ceiling fan installation - improved air circulation and lighting",
         },
       ]}

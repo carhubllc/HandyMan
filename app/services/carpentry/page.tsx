@@ -22,18 +22,18 @@ export default function CarpentryPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "https://images.pexels.com/photos/5691656/pexels-photo-5691656.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691655/pexels-photo-5691655.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216607/pexels-photo-1216607.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216608/pexels-photo-1216608.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Custom built-in shelving - maximized storage in living room",
         },
         {
-          before: "https://images.pexels.com/photos/5691654/pexels-photo-5691654.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691653/pexels-photo-5691653.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216609/pexels-photo-1216609.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216610/pexels-photo-1216610.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Door installation - replaced old door with modern design",
         },
         {
-          before: "https://images.pexels.com/photos/5691652/pexels-photo-5691652.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691651/pexels-photo-5691651.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216611/pexels-photo-1216611.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216612/pexels-photo-1216612.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Crown molding installation - added elegant finishing touches",
         },
       ]}

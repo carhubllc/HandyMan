@@ -83,8 +83,8 @@ export default function HandymanWebsite() {
 
             <div className="relative mt-8 lg:mt-0">
               <div className="relative mx-auto max-w-md lg:max-w-none">
-                src="https://images.pexels.com/photos/5691658/pexels-photo-5691658.jpeg?auto=compress&cs=tinysrgb&w=600&h=500&fit=crop"
-                  src="/placeholder.svg?height=600&width=500"
+                <Image
+                  src="https://images.pexels.com/photos/5691658/pexels-photo-5691658.jpeg?auto=compress&cs=tinysrgb&w=600&h=500&fit=crop"
                   alt="Professional handyman working on home repairs"
                   width={500}
                   height={600}

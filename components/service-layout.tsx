@@ -76,7 +76,7 @@ export default function ServiceLayout({
             </div>
             <div className="relative mt-8 lg:mt-0">
               <Image
-                src={heroImage || "https://images.pexels.com/photos/5691660/pexels-photo-5691660.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"}
+                src={heroImage}
                 alt={`Professional ${title.toLowerCase()} service`}
                 width={600}
                 height={400}

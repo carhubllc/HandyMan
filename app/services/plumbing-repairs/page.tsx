@@ -22,18 +22,18 @@ export default function PlumbingRepairsPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "https://images.pexels.com/photos/8293779/pexels-photo-8293779.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/8293780/pexels-photo-8293780.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216590/pexels-photo-1216590.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Kitchen faucet replacement - from old leaky fixture to modern efficient model",
         },
         {
-          before: "https://images.pexels.com/photos/8293781/pexels-photo-8293781.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/8293782/pexels-photo-8293782.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216591/pexels-photo-1216591.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216592/pexels-photo-1216592.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Bathroom toilet installation - complete removal and new toilet setup",
         },
         {
-          before: "https://images.pexels.com/photos/8293783/pexels-photo-8293783.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/8293784/pexels-photo-8293784.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216593/pexels-photo-1216593.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216594/pexels-photo-1216594.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Pipe leak repair - fixed burst pipe and restored water pressure",
         },
       ]}

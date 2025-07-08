@@ -22,18 +22,18 @@ export default function HomeMaintenancePage() {
       ]}
       beforeAfterImages={[
         {
-          before: "https://images.pexels.com/photos/5691649/pexels-photo-5691649.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691648/pexels-photo-5691648.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216613/pexels-photo-1216613.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216614/pexels-photo-1216614.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Gutter cleaning - removed debris and restored proper drainage",
         },
         {
-          before: "https://images.pexels.com/photos/5691647/pexels-photo-5691647.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691646/pexels-photo-5691646.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216615/pexels-photo-1216615.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216616/pexels-photo-1216616.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Pressure washing - restored deck to like-new condition",
         },
         {
-          before: "https://images.pexels.com/photos/5691645/pexels-photo-5691645.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/5691644/pexels-photo-5691644.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216617/pexels-photo-1216617.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216618/pexels-photo-1216618.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Caulking repair - sealed gaps to prevent water damage",
         },
       ]}
