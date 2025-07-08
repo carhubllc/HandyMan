@@ -15,12 +15,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.documentElement.setAttribute('data-no-transition', '');
+              window.addEventListener('load', function() {
+                document.documentElement.removeAttribute('data-no-transition');
+              });
+            `,
+          }}
+        />
+      </head>
       <body>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
-          disableTransitionOnChange
         >
           {children}
         </ThemeProvider>
