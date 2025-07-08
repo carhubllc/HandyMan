@@ -7,7 +7,7 @@ export default function ElectricalWorkPage() {
       title="Electrical Work"
       description="Safe, reliable electrical services by licensed electricians. From simple outlet repairs to complete lighting installations, we handle all your electrical needs with safety as our top priority."
       icon={<Zap className="h-8 w-8" />}
-      heroImage="/placeholder.svg?height=400&width=600"
+      heroImage="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
       services={[
         "Light Fixture Installation",
         "Outlet & Switch Repair",
@@ -22,18 +22,18 @@ export default function ElectricalWorkPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/257737/pexels-photo-257737.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/257738/pexels-photo-257738.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Dining room chandelier installation - from basic fixture to elegant lighting",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/257739/pexels-photo-257739.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/257740/pexels-photo-257740.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Kitchen outlet upgrade - added GFCI outlets for safety compliance",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/257741/pexels-photo-257741.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/257742/pexels-photo-257742.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Ceiling fan installation - improved air circulation and lighting",
         },
       ]}

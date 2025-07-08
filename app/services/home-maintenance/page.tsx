@@ -7,7 +7,7 @@ export default function HomeMaintenancePage() {
       title="Home Maintenance"
       description="Keep your home in perfect condition with our comprehensive maintenance services. From seasonal upkeep to preventive care, we help protect your investment year-round."
       icon={<Home className="h-8 w-8" />}
-      heroImage="/placeholder.svg?height=400&width=600"
+      heroImage="https://images.pexels.com/photos/5691650/pexels-photo-5691650.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
       services={[
         "Gutter Cleaning & Repair",
         "Pressure Washing",
@@ -22,18 +22,18 @@ export default function HomeMaintenancePage() {
       ]}
       beforeAfterImages={[
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/5691649/pexels-photo-5691649.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/5691648/pexels-photo-5691648.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Gutter cleaning - removed debris and restored proper drainage",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/5691647/pexels-photo-5691647.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/5691646/pexels-photo-5691646.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Pressure washing - restored deck to like-new condition",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/5691645/pexels-photo-5691645.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/5691644/pexels-photo-5691644.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Caulking repair - sealed gaps to prevent water damage",
         },
       ]}

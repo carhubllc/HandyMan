@@ -7,7 +7,7 @@ export default function PaintingDrywallPage() {
       title="Painting & Drywall"
       description="Transform your space with professional painting and drywall services. From color consultation to flawless finishes, we deliver beautiful results that enhance your home's value and appeal."
       icon={<PaintBucket className="h-8 w-8" />}
-      heroImage="/placeholder.svg?height=400&width=600"
+      heroImage="https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
       services={[
         "Interior Painting",
         "Exterior Painting",
@@ -22,18 +22,18 @@ export default function PaintingDrywallPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/1669800/pexels-photo-1669800.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1669801/pexels-photo-1669801.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Living room transformation - from dated colors to modern neutral palette",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/1669802/pexels-photo-1669802.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1669803/pexels-photo-1669803.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Drywall hole repair - seamless patch and paint match",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/1669804/pexels-photo-1669804.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1669805/pexels-photo-1669805.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Kitchen cabinet refresh - painted cabinets for updated look",
         },
       ]}

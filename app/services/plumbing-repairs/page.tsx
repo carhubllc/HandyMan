@@ -7,7 +7,7 @@ export default function PlumbingRepairsPage() {
       title="Plumbing Repairs"
       description="Expert plumbing solutions for your home. From leaky faucets to major pipe repairs, our licensed plumbers deliver reliable, long-lasting fixes with upfront pricing and guaranteed workmanship."
       icon={<Wrench className="h-8 w-8" />}
-      heroImage="/placeholder.svg?height=400&width=600"
+      heroImage="https://images.pexels.com/photos/8293778/pexels-photo-8293778.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
       services={[
         "Leaky Faucet Repair",
         "Toilet Repair & Installation",
@@ -22,18 +22,18 @@ export default function PlumbingRepairsPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/8293779/pexels-photo-8293779.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/8293780/pexels-photo-8293780.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Kitchen faucet replacement - from old leaky fixture to modern efficient model",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/8293781/pexels-photo-8293781.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/8293782/pexels-photo-8293782.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Bathroom toilet installation - complete removal and new toilet setup",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/8293783/pexels-photo-8293783.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/8293784/pexels-photo-8293784.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Pipe leak repair - fixed burst pipe and restored water pressure",
         },
       ]}

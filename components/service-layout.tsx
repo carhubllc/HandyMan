@@ -76,7 +76,7 @@ export default function ServiceLayout({
             </div>
             <div className="relative mt-8 lg:mt-0">
               <Image
-                src={heroImage || "/placeholder.svg?height=400&width=600"}
+                src={heroImage || "https://images.pexels.com/photos/5691660/pexels-photo-5691660.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"}
                 alt={`Professional ${title.toLowerCase()} service`}
                 width={600}
                 height={400}
@@ -121,7 +121,7 @@ export default function ServiceLayout({
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <Image
-                      src={project.before || "/placeholder.svg?height=200&width=300"}
+                      src={project.before || "https://images.pexels.com/photos/5691661/pexels-photo-5691661.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop"}
                       alt="Before"
                       width={300}
                       height={200}
@@ -133,7 +133,7 @@ export default function ServiceLayout({
                   </div>
                   <div className="relative">
                     <Image
-                      src={project.after || "/placeholder.svg?height=200&width=300"}
+                      src={project.after || "https://images.pexels.com/photos/5691662/pexels-photo-5691662.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop"}
                       alt="After"
                       width={300}
                       height={200}

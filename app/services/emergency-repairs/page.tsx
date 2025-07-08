@@ -7,7 +7,7 @@ export default function EmergencyRepairsPage() {
       title="Emergency Repairs"
       description="24/7 emergency handyman services when you need help fast. From burst pipes to electrical issues, our rapid response team is ready to handle urgent home repairs any time, day or night."
       icon={<Shield className="h-8 w-8" />}
-      heroImage="/placeholder.svg?height=400&width=600"
+      heroImage="https://images.pexels.com/photos/5691643/pexels-photo-5691643.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
       services={[
         "24/7 Emergency Response",
         "Burst Pipe Repairs",
@@ -22,18 +22,18 @@ export default function EmergencyRepairsPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/5691642/pexels-photo-5691642.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/5691641/pexels-photo-5691641.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Emergency pipe burst repair - stopped flooding and restored water service",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/5691640/pexels-photo-5691640.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/5691639/pexels-photo-5691639.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Storm damage repair - secured roof and prevented further damage",
         },
         {
-          before: "/placeholder.svg?height=200&width=300",
-          after: "/placeholder.svg?height=200&width=300",
+          before: "https://images.pexels.com/photos/5691638/pexels-photo-5691638.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/5691637/pexels-photo-5691637.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Emergency electrical repair - restored power safely and quickly",
         },
       ]}
