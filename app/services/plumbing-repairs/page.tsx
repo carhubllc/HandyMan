@@ -36,6 +36,21 @@ export default function PlumbingRepairsPage() {
           after: "https://images.pexels.com/photos/1216594/pexels-photo-1216594.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Pipe leak repair - fixed burst pipe and restored water pressure",
         },
+        {
+          before: "https://images.pexels.com/photos/1216625/pexels-photo-1216625.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216626/pexels-photo-1216626.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Bathroom sink upgrade - replaced old vanity with modern double sink",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216627/pexels-photo-1216627.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216628/pexels-photo-1216628.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Shower head replacement - upgraded to rainfall shower system",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216629/pexels-photo-1216629.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216630/pexels-photo-1216630.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Water heater installation - new energy-efficient tankless system",
+        },
       ]}
       pricing={[
         {

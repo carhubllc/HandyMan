@@ -36,6 +36,21 @@ export default function EmergencyRepairsPage() {
           after: "https://images.pexels.com/photos/1216624/pexels-photo-1216624.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Emergency electrical repair - restored power safely and quickly",
         },
+        {
+          before: "https://images.pexels.com/photos/1216655/pexels-photo-1216655.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216656/pexels-photo-1216656.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Water damage restoration - dried and repaired flooded basement",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216657/pexels-photo-1216657.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216658/pexels-photo-1216658.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Emergency door repair - secured broken entry door overnight",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216659/pexels-photo-1216659.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216660/pexels-photo-1216660.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Heating system emergency - restored heat during winter storm",
+        },
       ]}
       pricing={[
         {

@@ -36,6 +36,21 @@ export default function PaintingDrywallPage() {
           after: "https://images.pexels.com/photos/1216606/pexels-photo-1216606.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Kitchen cabinet refresh - painted cabinets for updated look",
         },
+        {
+          before: "https://images.pexels.com/photos/1216637/pexels-photo-1216637.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216638/pexels-photo-1216638.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Bedroom makeover - accent wall with modern color scheme",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216639/pexels-photo-1216639.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216640/pexels-photo-1216640.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Exterior house painting - fresh coat improved curb appeal",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216641/pexels-photo-1216641.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216642/pexels-photo-1216642.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Bathroom paint job - moisture-resistant paint in spa colors",
+        },
       ]}
       pricing={[
         {

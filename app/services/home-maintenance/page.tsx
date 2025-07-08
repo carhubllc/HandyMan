@@ -36,6 +36,21 @@ export default function HomeMaintenancePage() {
           after: "https://images.pexels.com/photos/1216618/pexels-photo-1216618.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Caulking repair - sealed gaps to prevent water damage",
         },
+        {
+          before: "https://images.pexels.com/photos/1216649/pexels-photo-1216649.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216650/pexels-photo-1216650.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Driveway cleaning - removed stains and restored appearance",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216651/pexels-photo-1216651.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216652/pexels-photo-1216652.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Window cleaning - crystal clear views inside and out",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216653/pexels-photo-1216653.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216654/pexels-photo-1216654.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Fence maintenance - repaired and stained for longevity",
+        },
       ]}
       pricing={[
         {

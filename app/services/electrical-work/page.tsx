@@ -36,6 +36,21 @@ export default function ElectricalWorkPage() {
           after: "https://images.pexels.com/photos/1216600/pexels-photo-1216600.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Ceiling fan installation - improved air circulation and lighting",
         },
+        {
+          before: "https://images.pexels.com/photos/1216631/pexels-photo-1216631.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216632/pexels-photo-1216632.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Outdoor lighting installation - enhanced security and curb appeal",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216633/pexels-photo-1216633.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216634/pexels-photo-1216634.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Panel upgrade - modernized electrical system for safety",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216635/pexels-photo-1216635.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216636/pexels-photo-1216636.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Kitchen under-cabinet lighting - added task lighting for cooking",
+        },
       ]}
       pricing={[
         {

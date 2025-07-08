@@ -36,6 +36,21 @@ export default function CarpentryPage() {
           after: "https://images.pexels.com/photos/1216612/pexels-photo-1216612.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
           description: "Crown molding installation - added elegant finishing touches",
         },
+        {
+          before: "https://images.pexels.com/photos/1216643/pexels-photo-1216643.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216644/pexels-photo-1216644.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Kitchen island build - custom storage and workspace addition",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216645/pexels-photo-1216645.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216646/pexels-photo-1216646.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Deck repair and staining - restored outdoor living space",
+        },
+        {
+          before: "https://images.pexels.com/photos/1216647/pexels-photo-1216647.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          after: "https://images.pexels.com/photos/1216648/pexels-photo-1216648.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          description: "Closet organization system - custom shelving and hanging space",
+        },
       ]}
       pricing={[
         {
