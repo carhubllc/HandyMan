@@ -33,18 +33,18 @@ export default function ServiceLayout({
   testimonials,
 }: ServiceLayoutProps) {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       {/* Mobile-Responsive Header */}
       <MobileHeader />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-orange-50 to-orange-100 py-12 sm:py-16">
+      <section className="relative bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-950/20 dark:to-orange-900/20 py-12 sm:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
           <div className="mb-6 sm:mb-8">
             <Link
               href="/"
-              className="inline-flex items-center space-x-2 text-gray-600 hover:text-orange-600 transition-colors"
+              className="inline-flex items-center space-x-2 text-muted-foreground hover:text-orange-600 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 sm:h-5 sm:w-5" />
               <span className="text-sm sm:text-base">Back to Home</span>
@@ -55,10 +55,10 @@ export default function ServiceLayout({
             <div className="space-y-6 text-center lg:text-left">
               <div className="flex items-center justify-center lg:justify-start space-x-3">
                 <div className="bg-orange-600 text-white p-2 sm:p-3 rounded-full">{icon}</div>
-                <Badge className="bg-orange-100 text-orange-800 text-xs sm:text-sm">Professional Service</Badge>
+                <Badge className="bg-orange-100 text-orange-800 dark:bg-orange-900/50 dark:text-orange-200 text-xs sm:text-sm">Professional Service</Badge>
               </div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">{title}</h1>
-              <p className="text-lg sm:text-xl text-gray-600 leading-relaxed">{description}</p>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">{title}</h1>
+              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">{description}</p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                 <Button size="lg" className="bg-orange-600 hover:bg-orange-700 w-full sm:w-auto">
                   <Calendar className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
@@ -67,7 +67,7 @@ export default function ServiceLayout({
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-orange-600 text-orange-600 hover:bg-orange-50 bg-transparent w-full sm:w-auto"
+                  className="border-orange-600 text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-950/50 bg-transparent w-full sm:w-auto"
                 >
                   <Calculator className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
                   Get Quote
@@ -89,9 +89,9 @@ export default function ServiceLayout({
       </section>
 
       {/* Services List */}
-      <section className="py-12 sm:py-16 bg-white">
+      <section className="py-12 sm:py-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 sm:mb-8 text-center">
             Our {title} Services
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -100,7 +100,7 @@ export default function ServiceLayout({
                 <CardContent className="p-4 sm:p-6">
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-600 flex-shrink-0 mt-0.5" />
-                    <span className="font-medium text-gray-900 text-sm sm:text-base leading-relaxed">{service}</span>
+                    <span className="font-medium text-foreground text-sm sm:text-base leading-relaxed">{service}</span>
                   </div>
                 </CardContent>
               </Card>
@@ -110,9 +110,9 @@ export default function ServiceLayout({
       </section>
 
       {/* Before & After Gallery */}
-      <section className="py-12 sm:py-16 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-8 sm:mb-12 text-center">
             Before & After Gallery
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -145,7 +145,7 @@ export default function ServiceLayout({
                   </div>
                 </div>
                 <CardContent className="p-3 sm:p-4">
-                  <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{project.description}</p>
+                  <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{project.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -154,9 +154,9 @@ export default function ServiceLayout({
       </section>
 
       {/* Pricing */}
-      <section className="py-12 sm:py-16 bg-white">
+      <section className="py-12 sm:py-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-8 sm:mb-12 text-center">
             Transparent Pricing
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -167,13 +167,13 @@ export default function ServiceLayout({
                   <div className="text-2xl sm:text-3xl font-bold text-orange-600">{item.price}</div>
                 </CardHeader>
                 <CardContent className="pt-0">
-                  <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{item.description}</p>
+                  <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{item.description}</p>
                 </CardContent>
               </Card>
             ))}
           </div>
           <div className="text-center mt-6 sm:mt-8">
-            <p className="text-gray-600 mb-4 text-sm sm:text-base">
+            <p className="text-muted-foreground mb-4 text-sm sm:text-base">
               All prices include materials and labor. Free estimates available.
             </p>
             <Button className="bg-orange-600 hover:bg-orange-700 w-full sm:w-auto">Get Custom Quote</Button>
@@ -182,9 +182,9 @@ export default function ServiceLayout({
       </section>
 
       {/* Features */}
-      <section className="py-12 sm:py-16 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-8 sm:mb-12 text-center">
             Why Choose Our {title}?
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -193,7 +193,7 @@ export default function ServiceLayout({
                 <div className="bg-orange-100 w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
                   <CheckCircle className="h-6 w-6 sm:h-8 sm:w-8 text-orange-600" />
                 </div>
-                <h3 className="font-semibold text-gray-900 text-sm sm:text-base leading-tight">{feature}</h3>
+                <h3 className="font-semibold text-foreground text-sm sm:text-base leading-tight">{feature}</h3>
               </Card>
             ))}
           </div>
@@ -201,9 +201,9 @@ export default function ServiceLayout({
       </section>
 
       {/* Testimonials */}
-      <section className="py-12 sm:py-16 bg-white">
+      <section className="py-12 sm:py-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-8 sm:mb-12 text-center">
             What Our Customers Say
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -214,12 +214,12 @@ export default function ServiceLayout({
                     <Star key={i} className="h-4 w-4 sm:h-5 sm:w-5 fill-current" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-3 sm:mb-4 italic text-sm sm:text-base leading-relaxed">
+                <p className="text-muted-foreground mb-3 sm:mb-4 italic text-sm sm:text-base leading-relaxed">
                   "{testimonial.review}"
                 </p>
                 <div>
-                  <p className="font-semibold text-gray-900 text-sm sm:text-base">{testimonial.name}</p>
-                  <p className="text-xs sm:text-sm text-gray-500">{testimonial.project}</p>
+                  <p className="font-semibold text-foreground text-sm sm:text-base">{testimonial.name}</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground">{testimonial.project}</p>
                 </div>
               </Card>
             ))}
@@ -242,7 +242,7 @@ export default function ServiceLayout({
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-orange-600 bg-transparent w-full sm:w-auto"
+              className="border-white text-white hover:bg-white hover:text-orange-600 dark:hover:bg-gray-100 bg-transparent w-full sm:w-auto"
             >
               <Mail className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
               Email Us

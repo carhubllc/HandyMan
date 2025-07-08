@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Hammer, Menu, Phone } from "lucide-react"
 import Link from "next/link"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function MobileHeader() {
   const [isOpen, setIsOpen] = useState(false)
@@ -19,37 +20,43 @@ export default function MobileHeader() {
   ]
 
   return (
-    <header className="bg-white shadow-sm border-b sticky top-0 z-50">
+    <header className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 shadow-sm border-b sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Hammer className="h-7 w-7 sm:h-8 sm:w-8 text-orange-600" />
-            <span className="text-xl sm:text-2xl font-bold text-gray-900">ProFix</span>
+            <span className="text-xl sm:text-2xl font-bold text-foreground">ProFix</span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-8">
-            <Link href="#services" className="text-gray-700 hover:text-orange-600 transition-colors">
+            <Link href="#services" className="text-muted-foreground hover:text-orange-600 transition-colors">
               Services
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-orange-600 transition-colors">
+            <Link href="#about" className="text-muted-foreground hover:text-orange-600 transition-colors">
               About
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-orange-600 transition-colors">
+            <Link href="#contact" className="text-muted-foreground hover:text-orange-600 transition-colors">
               Contact
             </Link>
           </nav>
 
-          {/* Desktop Call Button */}
-          <Button className="hidden sm:flex bg-orange-600 hover:bg-orange-700 text-sm sm:text-base">
-            <Phone className="h-4 w-4 mr-2" />
-            <span className="hidden md:inline">Call Now</span>
-            <span className="md:hidden">(555) 123-4567</span>
-          </Button>
+          {/* Desktop Actions */}
+          <div className="hidden sm:flex items-center space-x-3">
+            <ThemeToggle />
+            <Button className="bg-orange-600 hover:bg-orange-700 text-sm sm:text-base">
+              <Phone className="h-4 w-4 mr-2" />
+              <span className="hidden md:inline">Call Now</span>
+              <span className="md:hidden">(555) 123-4567</span>
+            </Button>
+          </div>
 
           {/* Mobile Menu */}
           <div className="flex items-center space-x-2 lg:hidden">
+            {/* Mobile Theme Toggle */}
+            <ThemeToggle />
+            
             {/* Mobile Call Button */}
             <Button size="sm" className="bg-orange-600 hover:bg-orange-700 sm:hidden">
               <Phone className="h-4 w-4" />
@@ -63,13 +70,13 @@ export default function MobileHeader() {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[300px] sm:w-[350px]">
+              <SheetContent side="right" className="w-[300px] sm:w-[350px] bg-background">
                 <div className="flex flex-col h-full">
                   {/* Header */}
                   <div className="flex items-center justify-between pb-4 border-b">
                     <div className="flex items-center space-x-2">
                       <Hammer className="h-6 w-6 text-orange-600" />
-                      <span className="text-lg font-bold text-gray-900">ProFix</span>
+                      <span className="text-lg font-bold text-foreground">ProFix</span>
                     </div>
                   </div>
 
@@ -80,21 +87,21 @@ export default function MobileHeader() {
                       <div className="space-y-3">
                         <Link
                           href="#services"
-                          className="block text-lg font-medium text-gray-900 hover:text-orange-600 transition-colors"
+                          className="block text-lg font-medium text-foreground hover:text-orange-600 transition-colors"
                           onClick={() => setIsOpen(false)}
                         >
                           Services
                         </Link>
                         <Link
                           href="#about"
-                          className="block text-lg font-medium text-gray-900 hover:text-orange-600 transition-colors"
+                          className="block text-lg font-medium text-foreground hover:text-orange-600 transition-colors"
                           onClick={() => setIsOpen(false)}
                         >
                           About
                         </Link>
                         <Link
                           href="#contact"
-                          className="block text-lg font-medium text-gray-900 hover:text-orange-600 transition-colors"
+                          className="block text-lg font-medium text-foreground hover:text-orange-600 transition-colors"
                           onClick={() => setIsOpen(false)}
                         >
                           Contact
@@ -103,7 +110,7 @@ export default function MobileHeader() {
 
                       {/* Services Submenu */}
                       <div className="border-t pt-6">
-                        <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
+                        <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3">
                           Our Services
                         </h3>
                         <div className="space-y-2">
@@ -111,7 +118,7 @@ export default function MobileHeader() {
                             <Link
                               key={service.href}
                               href={service.href}
-                              className="block text-gray-700 hover:text-orange-600 transition-colors py-1"
+                              className="block text-muted-foreground hover:text-orange-600 transition-colors py-1"
                               onClick={() => setIsOpen(false)}
                             >
                               {service.name}
@@ -128,7 +135,7 @@ export default function MobileHeader() {
                       <Phone className="h-4 w-4 mr-2" />
                       Call (555) 123-4567
                     </Button>
-                    <div className="text-center text-sm text-gray-500">
+                    <div className="text-center text-sm text-muted-foreground">
                       <p>Available 24/7 for emergencies</p>
                     </div>
                   </div>

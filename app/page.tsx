@@ -25,23 +25,23 @@ import MobileHeader from "@/components/mobile-header"
 
 export default function HandymanWebsite() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       {/* Mobile-Responsive Header */}
       <MobileHeader />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-orange-50 to-orange-100 py-12 sm:py-16 lg:py-32">
+      <section className="relative bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-950/20 dark:to-orange-900/20 py-12 sm:py-16 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
               <div className="space-y-4">
-                <Badge className="bg-orange-100 text-orange-800 hover:bg-orange-100 text-xs sm:text-sm">
+                <Badge className="bg-orange-100 text-orange-800 hover:bg-orange-100 dark:bg-orange-900/50 dark:text-orange-200 text-xs sm:text-sm">
                   Serving All of California
                 </Badge>
-                <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                   Reliable Handyman Services in California – Fast, Affordable
                 </h1>
-                <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto lg:mx-0">
                   Professional home repairs and improvements you can trust. From minor fixes to major projects, we've
                   got you covered with quality workmanship and fair pricing.
                 </p>
@@ -57,7 +57,7 @@ export default function HandymanWebsite() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-orange-600 text-orange-600 hover:bg-orange-50 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 bg-transparent w-full sm:w-auto"
+                  className="border-orange-600 text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-950/50 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 bg-transparent w-full sm:w-auto"
                 >
                   <Phone className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
                   <span className="hidden sm:inline">(555) 123-4567</span>
@@ -76,7 +76,7 @@ export default function HandymanWebsite() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600" />
-                  <span className="text-sm sm:text-base text-gray-600">500+ Happy Customers</span>
+                  <span className="text-sm sm:text-base text-muted-foreground">500+ Happy Customers</span>
                 </div>
               </div>
             </div>
@@ -91,14 +91,14 @@ export default function HandymanWebsite() {
                   className="rounded-2xl shadow-2xl w-full h-auto"
                   priority
                 />
-                <div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-white p-4 sm:p-6 rounded-xl shadow-lg max-w-[280px] sm:max-w-none">
+                <div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-background p-4 sm:p-6 rounded-xl shadow-lg max-w-[280px] sm:max-w-none border">
                   <div className="flex items-center space-x-3">
                     <div className="bg-green-100 p-2 rounded-full flex-shrink-0">
                       <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6 text-green-600" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900 text-sm sm:text-base">Licensed & Insured</p>
-                      <p className="text-xs sm:text-sm text-gray-600">Fully bonded professionals</p>
+                      <p className="font-semibold text-foreground text-sm sm:text-base">Licensed & Insured</p>
+                      <p className="text-xs sm:text-sm text-muted-foreground">Fully bonded professionals</p>
                     </div>
                   </div>
                 </div>
@@ -109,11 +109,11 @@ export default function HandymanWebsite() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+      <section id="services" className="py-12 sm:py-16 lg:py-20 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 lg:mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Handyman Services</h2>
-            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Our Handyman Services</h2>
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
               From small repairs to complete renovations, we handle it all with expertise and care
             </p>
           </div>
@@ -174,14 +174,14 @@ export default function HandymanWebsite() {
                       {service.icon}
                     </div>
                     <CardTitle className="text-lg sm:text-xl">{service.title}</CardTitle>
-                    <CardDescription className="text-gray-600 text-sm sm:text-base">
+                    <CardDescription className="text-muted-foreground text-sm sm:text-base">
                       {service.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="pt-0">
                     <ul className="space-y-2">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center text-sm text-gray-600">
+                        <li key={idx} className="flex items-center text-sm text-muted-foreground">
                           <CheckCircle className="h-3 w-3 sm:h-4 sm:w-4 text-green-500 mr-2 flex-shrink-0" />
                           {feature}
                         </li>
@@ -196,7 +196,7 @@ export default function HandymanWebsite() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-12 sm:py-16 lg:py-20">
+      <section id="about" className="py-12 sm:py-16 lg:py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
@@ -210,10 +210,10 @@ export default function HandymanWebsite() {
             </div>
             <div className="space-y-6 lg:space-y-8 order-1 lg:order-2">
               <div>
-                <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+                <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4 sm:mb-6">
                   Why Choose ProFix Handyman Services?
                 </h2>
-                <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+                <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                   With over 15 years of experience serving California homeowners, we pride ourselves on delivering
                   exceptional craftsmanship and reliable service. Our team of licensed professionals is committed to
                   your satisfaction.
@@ -246,8 +246,8 @@ export default function HandymanWebsite() {
                   <div key={index} className="flex space-x-3">
                     <div className="bg-orange-100 p-2 rounded-full flex-shrink-0">{feature.icon}</div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">{feature.title}</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">{feature.description}</p>
+                      <h3 className="font-semibold text-foreground mb-1 text-sm sm:text-base">{feature.title}</h3>
+                      <p className="text-xs sm:text-sm text-muted-foreground">{feature.description}</p>
                     </div>
                   </div>
                 ))}
@@ -258,13 +258,13 @@ export default function HandymanWebsite() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-12 sm:py-16 lg:py-20 bg-gray-900 text-white">
+      <section id="contact" className="py-12 sm:py-16 lg:py-20 bg-gray-900 dark:bg-gray-950 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
             <div className="space-y-6 lg:space-y-8">
               <div>
                 <h2 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">Get Your Free Quote Today</h2>
-                <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
+                <p className="text-lg sm:text-xl text-gray-300 dark:text-gray-400 leading-relaxed">
                   Ready to get started? Contact us for a free, no-obligation quote. We'll assess your project and
                   provide transparent pricing.
                 </p>
@@ -277,7 +277,7 @@ export default function HandymanWebsite() {
                   </div>
                   <div>
                     <p className="font-semibold text-sm sm:text-base">Call or Text</p>
-                    <p className="text-gray-300 text-sm sm:text-base">(555) 123-4567</p>
+                    <p className="text-gray-300 dark:text-gray-400 text-sm sm:text-base">(555) 123-4567</p>
                   </div>
                 </div>
 
@@ -287,7 +287,7 @@ export default function HandymanWebsite() {
                   </div>
                   <div>
                     <p className="font-semibold text-sm sm:text-base">Email Us</p>
-                    <p className="text-gray-300 text-sm sm:text-base">info@profixhandyman.com</p>
+                    <p className="text-gray-300 dark:text-gray-400 text-sm sm:text-base">info@profixhandyman.com</p>
                   </div>
                 </div>
 
@@ -297,7 +297,7 @@ export default function HandymanWebsite() {
                   </div>
                   <div>
                     <p className="font-semibold text-sm sm:text-base">Service Area</p>
-                    <p className="text-gray-300 text-sm sm:text-base">All of California</p>
+                    <p className="text-gray-300 dark:text-gray-400 text-sm sm:text-base">All of California</p>
                   </div>
                 </div>
 
@@ -307,13 +307,13 @@ export default function HandymanWebsite() {
                   </div>
                   <div>
                     <p className="font-semibold text-sm sm:text-base">Business Hours</p>
-                    <p className="text-gray-300 text-sm sm:text-base">Mon-Sat: 7AM-7PM | Sun: 9AM-5PM</p>
+                    <p className="text-gray-300 dark:text-gray-400 text-sm sm:text-base">Mon-Sat: 7AM-7PM | Sun: 9AM-5PM</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <Card className="bg-white text-gray-900">
+            <Card className="bg-background text-foreground border">
               <CardHeader>
                 <CardTitle className="text-xl sm:text-2xl">Request a Quote</CardTitle>
                 <CardDescription className="text-sm sm:text-base">
@@ -360,7 +360,7 @@ export default function HandymanWebsite() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8 sm:py-12">
+      <footer className="bg-gray-800 dark:bg-gray-900 text-white py-8 sm:py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <div className="space-y-4 sm:col-span-2 lg:col-span-1">
@@ -368,14 +368,14 @@ export default function HandymanWebsite() {
                 <Hammer className="h-6 w-6 sm:h-8 sm:w-8 text-orange-600" />
                 <span className="text-xl sm:text-2xl font-bold">ProFix</span>
               </div>
-              <p className="text-gray-400 text-sm sm:text-base">
+              <p className="text-gray-400 dark:text-gray-500 text-sm sm:text-base">
                 California's trusted handyman service for all your home repair and improvement needs.
               </p>
             </div>
 
             <div>
               <h3 className="font-semibold mb-4 text-sm sm:text-base">Services</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
+              <ul className="space-y-2 text-gray-400 dark:text-gray-500 text-sm">
                 <li>Plumbing Repairs</li>
                 <li>Electrical Work</li>
                 <li>Painting & Drywall</li>
@@ -386,7 +386,7 @@ export default function HandymanWebsite() {
 
             <div>
               <h3 className="font-semibold mb-4 text-sm sm:text-base">Contact Info</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
+              <ul className="space-y-2 text-gray-400 dark:text-gray-500 text-sm">
                 <li>(555) 123-4567</li>
                 <li>info@profixhandyman.com</li>
                 <li>Serving All of California</li>
@@ -395,7 +395,7 @@ export default function HandymanWebsite() {
 
             <div>
               <h3 className="font-semibold mb-4 text-sm sm:text-base">Business Hours</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
+              <ul className="space-y-2 text-gray-400 dark:text-gray-500 text-sm">
                 <li>Monday - Saturday: 7AM - 7PM</li>
                 <li>Sunday: 9AM - 5PM</li>
                 <li>Emergency services available 24/7</li>
@@ -403,7 +403,7 @@ export default function HandymanWebsite() {
             </div>
           </div>
 
-          <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400 text-xs sm:text-sm">
+          <div className="border-t border-gray-700 dark:border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400 dark:text-gray-500 text-xs sm:text-sm">
             <p>&copy; {new Date().getFullYear()} ProFix Handyman Services. All rights reserved. | Licensed & Insured</p>
           </div>
         </div>
