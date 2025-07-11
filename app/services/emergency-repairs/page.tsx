@@ -7,7 +7,7 @@ export default function EmergencyRepairsPage() {
       title="Emergency Repairs"
       description="24/7 emergency handyman services when you need help fast. From burst pipes to electrical issues, our rapid response team is ready to handle urgent home repairs any time, day or night."
       icon={<Shield className="h-8 w-8" />}
-      heroImage="https://images.pexels.com/photos/5691643/pexels-photo-5691643.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      heroImage="https://images.pexels.com/photos/5691643/pexels-photo-5691643.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
       services={[
         "24/7 Emergency Response",
         "Burst Pipe Repairs",

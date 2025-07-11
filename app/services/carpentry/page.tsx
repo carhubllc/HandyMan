@@ -7,7 +7,7 @@ export default function CarpentryPage() {
       title="Carpentry Services"
       description="Custom carpentry solutions for your home. From built-in shelving to door installations, our skilled carpenters deliver precision craftsmanship and functional beauty."
       icon={<Hammer className="h-8 w-8" />}
-      heroImage="https://images.pexels.com/photos/5691657/pexels-photo-5691657.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      heroImage="https://images.pexels.com/photos/5691657/pexels-photo-5691657.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
       services={[
         "Custom Shelving & Storage",
         "Door Installation & Repair",

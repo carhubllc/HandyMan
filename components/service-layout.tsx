@@ -78,8 +78,8 @@ export default function ServiceLayout({
               <Image
                 src={heroImage}
                 alt={`Professional ${title.toLowerCase()} service`}
-                width={600}
-                height={400}
+                width={800}
+                height={500}
                 className="rounded-2xl shadow-2xl w-full h-auto"
                 priority
               />
@@ -121,10 +121,10 @@ export default function ServiceLayout({
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <Image
-                      src={project.before || "https://images.pexels.com/photos/5691661/pexels-photo-5691661.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop"}
+                      src={project.before || "https://images.pexels.com/photos/5691661/pexels-photo-5691661.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop"}
                       alt="Before"
-                      width={300}
-                      height={200}
+                      width={400}
+                      height={250}
                       className="w-full h-32 sm:h-48 object-cover"
                     />
                     <div className="absolute top-2 left-2 bg-red-600 text-white px-2 py-1 rounded text-xs font-medium">
@@ -133,10 +133,10 @@ export default function ServiceLayout({
                   </div>
                   <div className="relative">
                     <Image
-                      src={project.after || "https://images.pexels.com/photos/5691662/pexels-photo-5691662.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop"}
+                      src={project.after || "https://images.pexels.com/photos/5691662/pexels-photo-5691662.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop"}
                       alt="After"
-                      width={300}
-                      height={200}
+                      width={400}
+                      height={250}
                       className="w-full h-32 sm:h-48 object-cover"
                     />
                     <div className="absolute top-2 left-2 bg-green-600 text-white px-2 py-1 rounded text-xs font-medium">

@@ -84,8 +84,8 @@ export default function HandymanWebsite() {
             <div className="relative mt-8 lg:mt-0">
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <Image
-                  src="https://images.pexels.com/photos/5691658/pexels-photo-5691658.jpeg?auto=compress&cs=tinysrgb&w=600&h=500&fit=crop"
-                  alt="Professional handyman working on home repairs"
+                  src="https://images.pexels.com/photos/8293778/pexels-photo-8293778.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                  alt="Professional handyman with tools and equipment"
                   width={500}
                   height={600}
                   className="rounded-2xl shadow-2xl w-full h-auto"
@@ -201,8 +201,8 @@ export default function HandymanWebsite() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
               <Image
-                src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
-                alt="Experienced handyman team"
+                src="https://images.pexels.com/photos/5691650/pexels-photo-5691650.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                alt="Professional handyman team at work"
                 width={600}
                 height={500}
                 className="rounded-2xl shadow-xl w-full h-auto"

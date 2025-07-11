@@ -7,7 +7,7 @@ export default function PlumbingRepairsPage() {
       title="Plumbing Repairs"
       description="Expert plumbing solutions for your home. From leaky faucets to major pipe repairs, our licensed plumbers deliver reliable, long-lasting fixes with upfront pricing and guaranteed workmanship."
       icon={<Wrench className="h-8 w-8" />}
-      heroImage="https://images.pexels.com/photos/8293778/pexels-photo-8293778.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      heroImage="https://images.pexels.com/photos/8293778/pexels-photo-8293778.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
       services={[
         "Leaky Faucet Repair",
         "Toilet Repair & Installation",
@@ -22,33 +22,33 @@ export default function PlumbingRepairsPage() {
       ]}
       beforeAfterImages={[
         {
-          before: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1216590/pexels-photo-1216590.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+          after: "https://images.pexels.com/photos/1216590/pexels-photo-1216590.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
           description: "Kitchen faucet replacement - from old leaky fixture to modern efficient model",
         },
         {
-          before: "https://images.pexels.com/photos/1216591/pexels-photo-1216591.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1216592/pexels-photo-1216592.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216591/pexels-photo-1216591.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+          after: "https://images.pexels.com/photos/1216592/pexels-photo-1216592.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
           description: "Bathroom toilet installation - complete removal and new toilet setup",
         },
         {
-          before: "https://images.pexels.com/photos/1216593/pexels-photo-1216593.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1216594/pexels-photo-1216594.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216593/pexels-photo-1216593.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+          after: "https://images.pexels.com/photos/1216594/pexels-photo-1216594.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
           description: "Pipe leak repair - fixed burst pipe and restored water pressure",
         },
         {
-          before: "https://images.pexels.com/photos/1216625/pexels-photo-1216625.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1216626/pexels-photo-1216626.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216625/pexels-photo-1216625.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+          after: "https://images.pexels.com/photos/1216626/pexels-photo-1216626.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
           description: "Bathroom sink upgrade - replaced old vanity with modern double sink",
         },
         {
-          before: "https://images.pexels.com/photos/1216627/pexels-photo-1216627.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1216628/pexels-photo-1216628.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216627/pexels-photo-1216627.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+          after: "https://images.pexels.com/photos/1216628/pexels-photo-1216628.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
           description: "Shower head replacement - upgraded to rainfall shower system",
         },
         {
-          before: "https://images.pexels.com/photos/1216629/pexels-photo-1216629.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
-          after: "https://images.pexels.com/photos/1216630/pexels-photo-1216630.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop",
+          before: "https://images.pexels.com/photos/1216629/pexels-photo-1216629.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+          after: "https://images.pexels.com/photos/1216630/pexels-photo-1216630.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
           description: "Water heater installation - new energy-efficient tankless system",
         },
       ]}

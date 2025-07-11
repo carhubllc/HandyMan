@@ -7,7 +7,7 @@ export default function PaintingDrywallPage() {
       title="Painting & Drywall"
       description="Transform your space with professional painting and drywall services. From color consultation to flawless finishes, we deliver beautiful results that enhance your home's value and appeal."
       icon={<PaintBucket className="h-8 w-8" />}
-      heroImage="https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      heroImage="https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
       services={[
         "Interior Painting",
         "Exterior Painting",

@@ -7,7 +7,7 @@ export default function ElectricalWorkPage() {
       title="Electrical Work"
       description="Safe, reliable electrical services by licensed electricians. From simple outlet repairs to complete lighting installations, we handle all your electrical needs with safety as our top priority."
       icon={<Zap className="h-8 w-8" />}
-      heroImage="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      heroImage="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
       services={[
         "Light Fixture Installation",
         "Outlet & Switch Repair",

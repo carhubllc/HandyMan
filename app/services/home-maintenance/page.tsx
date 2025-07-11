@@ -7,7 +7,7 @@ export default function HomeMaintenancePage() {
       title="Home Maintenance"
       description="Keep your home in perfect condition with our comprehensive maintenance services. From seasonal upkeep to preventive care, we help protect your investment year-round."
       icon={<Home className="h-8 w-8" />}
-      heroImage="https://images.pexels.com/photos/5691650/pexels-photo-5691650.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      heroImage="https://images.pexels.com/photos/5691650/pexels-photo-5691650.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
       services={[
         "Gutter Cleaning & Repair",
         "Pressure Washing",
